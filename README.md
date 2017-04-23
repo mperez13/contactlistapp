@@ -31,4 +31,7 @@ Github for these tutorials: https://github.com/michaelcheng429/meanstacktutorial
   - install body-parser module
   - Allow user to add contact & add it to list
 
+- Part 5: Delete/Modify Data from database
+  - Add remove, update and edit functions
+
 [1]: https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
