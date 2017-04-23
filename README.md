@@ -22,4 +22,6 @@ Github for these tutorials: https://github.com/michaelcheng429/meanstacktutorial
   - Create dummy data
   - Display dummy data on table
 
+- Part 3
+
 [1]: https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
