@@ -11,7 +11,7 @@ Github for these tutorials: https://github.com/michaelcheng429/meanstacktutorial
 - AngularJS: frontend framework (UI)
 - Node: backend; server on which our app runs
 
-### Description of each branch
+## Description of each branch
 
 - Part 1
   - Set up title on page
