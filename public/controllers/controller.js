@@ -26,7 +26,11 @@ myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http){
     console.log(id);
     $http.delete('/contactlist/' + id).then(function(response){
       refresh();
-
     });
   };
+
+
+
+
+  
 }]);
