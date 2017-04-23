@@ -29,8 +29,19 @@ myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http){
     });
   };
 
+  $scope.edit = function(id) {
+    console.log(id);
+    $http.get('/contactlist/' + id).then(function(response){
+        $scope.contact = response.data;
+    });
+  };
 
+  app.get('/contactlist/:id', function(req,res){
+    var id = req.params.id;
+    console.log(id);
+    db.contactlist.findOne({_id: mongojs.ObjectId(id)}, function(err, doc){
+        res.json(doc);
+    });
+  });
 
-
-  
 }]);
