@@ -1,6 +1,7 @@
 # contactlistapp
 
 This app is taken from tutorials: https://www.youtube.com/watch?v=kHV7gOHvNdk
+
 Github for these tutorials: https://github.com/michaelcheng429/meanstacktutorial.git
 
 ## It includes the use of the MEAN stack
