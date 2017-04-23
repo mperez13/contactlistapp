@@ -36,12 +36,11 @@ myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http){
     });
   };
 
-  app.get('/contactlist/:id', function(req,res){
-    var id = req.params.id;
-    console.log(id);
-    db.contactlist.findOne({_id: mongojs.ObjectId(id)}, function(err, doc){
-        res.json(doc);
-    });
+  $scope.update = function(){
+  console.log($scope.contact._id);
+  $http.put('/contactlist/' + $scope.contact._id, $scope.contact).then(function(response){
+    refresh();
   });
+}
 
 }]);
