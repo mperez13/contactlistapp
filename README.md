@@ -19,6 +19,6 @@ Github for these tutorials: https://github.com/michaelcheng429/meanstacktutorial
   - Set up table w/ headers
 - Part 2
   - Create dummy data
-  - 
+  - Display dummy data on table
 
 [1]: https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
