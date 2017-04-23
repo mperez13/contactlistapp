@@ -26,5 +26,9 @@ Github for these tutorials: https://github.com/michaelcheng429/meanstacktutorial
   - download MongoDB
   - add docs to database
 
-- Part 4
+- Part 4: GET/POST Request
+  - install mongojs module
+  - install body-parser module
+  - Allow user to add contact & add it to list
+
 [1]: https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
