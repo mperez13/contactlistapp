@@ -22,4 +22,13 @@ Github for these tutorials: https://github.com/michaelcheng429/meanstacktutorial
   - Create dummy data
   - Display dummy data on table
 
+- Part 3 of the tutorial has no update on the code, so I did not create a branch
+  - download MongoDB
+  - add docs to database
+
+- Part 4: GET/POST Request
+  - install mongojs module
+  - install body-parser module
+  - Allow user to add contact
+
 [1]: https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
