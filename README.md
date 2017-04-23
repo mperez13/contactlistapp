@@ -17,5 +17,8 @@ Github for these tutorials: https://github.com/michaelcheng429/meanstacktutorial
   - Set up title on page
   - Add AngularJS tag and Bootstrap style tag
   - Set up table w/ headers
+- Part 2
+  - Create dummy data
+  - 
 
 [1]: https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
