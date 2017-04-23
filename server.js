@@ -6,7 +6,6 @@ app.use(express.static(__dirname + "/public"));
 
 app.get('/contactlist',function(req, res){
   console.log("I received a GET request.");
-
   person1 = {
     name: 'Tim',
     email: 'tim@email.com',
@@ -22,8 +21,8 @@ app.get('/contactlist',function(req, res){
     email: 'john@email.com',
     number: '(333) 333-3333'
   };
-
   let contactlist = [person1, person2, person3];
+  res.json(contactlist);
 });
 
 app.listen(3000);
